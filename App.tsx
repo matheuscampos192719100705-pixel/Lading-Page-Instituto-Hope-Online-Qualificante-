@@ -1,22 +1,19 @@
 
-'use client';
-
 import React from 'react';
 import { 
   MessageCircle, 
-  MapPin, 
-  Phone, 
   ShieldCheck, 
   CheckCircle, 
   ArrowRight, 
   Sparkles, 
   Quote, 
-  Check 
+  Check,
+  Phone
 } from 'lucide-react';
-import { Logo } from './components/Logo.tsx';
-import { CourseCategoryCard } from './components/CourseCard.tsx';
-import { WhatsAppFloating } from './components/WhatsAppFloating.tsx';
-import { COLORS, COURSE_CATEGORIES, BENEFITS, TESTIMONIALS, WHATSAPP_LINK } from './constants.tsx';
+import { Logo } from './components/Logo';
+import { CourseCategoryCard } from './components/CourseCard';
+import { WhatsAppFloating } from './components/WhatsAppFloating';
+import { COLORS, COURSE_CATEGORIES, BENEFITS, TESTIMONIALS, WHATSAPP_LINK } from './constants';
 
 const App: React.FC = () => {
   return (
@@ -31,7 +28,6 @@ const App: React.FC = () => {
           </a>
           
           <div className="flex items-center">
-            {/* Desktop WhatsApp Button Only */}
             <a 
               href={WHATSAPP_LINK}
               target="_blank"
@@ -43,7 +39,6 @@ const App: React.FC = () => {
               Chamar no WhatsApp
             </a>
 
-            {/* Mobile WhatsApp Button */}
             <a 
               href={WHATSAPP_LINK}
               target="_blank"
@@ -227,7 +222,7 @@ const App: React.FC = () => {
         </div>
       </section>
 
-      {/* How it Works - Professional Style */}
+      {/* How it Works */}
       <section id="como-funciona" className="py-32 bg-white scroll-mt-24">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-2xl mx-auto mb-24">
@@ -312,7 +307,7 @@ const App: React.FC = () => {
                 Dê o primeiro passo <br /> para o seu sucesso.
               </h2>
               <p className="text-xl md:text-2xl text-emerald-50 mb-14 leading-relaxed opacity-90">
-                Nossos consultores estão online agora para ajudar você a escolher o melhor caminho. Clique abaixo!
+                Nossos consultores estão online agora para ajudar você a escolher the melhor caminho. Clique abaixo!
               </p>
               <a 
                 href={WHATSAPP_LINK}

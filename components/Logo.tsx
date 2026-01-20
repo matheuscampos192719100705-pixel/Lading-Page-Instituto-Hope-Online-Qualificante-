@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { LOGO_URL } from '../constants.tsx';
+import { LOGO_URL } from '../constants';
 
 interface LogoProps {
   className?: string;

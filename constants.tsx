@@ -7,11 +7,10 @@ import {
   Globe, 
   Briefcase,
   Award,
-  Users,
   Lightbulb,
   PlusCircle
 } from 'lucide-react';
-import { CourseCategory, Benefit, Testimonial } from './types.ts';
+import { CourseCategory, Benefit, Testimonial } from './types';
 
 // Precise colors extracted from the provided logo
 export const COLORS = {

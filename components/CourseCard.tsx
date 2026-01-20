@@ -1,8 +1,8 @@
 
 import React from 'react';
-import { CourseCategory } from '../types.ts';
+import { CourseCategory } from '../types';
 import { CheckCircle2, ChevronRight, MessageCircle } from 'lucide-react';
-import { COLORS, WHATSAPP_LINK } from '../constants.tsx';
+import { COLORS, WHATSAPP_LINK } from '../constants';
 
 export const CourseCategoryCard: React.FC<{ category: CourseCategory }> = ({ category }) => {
   return (
@@ -14,9 +14,6 @@ export const CourseCategoryCard: React.FC<{ category: CourseCategory }> = ({ cat
         >
           <CheckCircle2 size={24} />
         </div>
-        <h3 style={{ color: COLORS.secondaryBlue }} className="text-2xl font-extrabold mb-4 group-hover:translate-x-1 transition-transform">
-          {category.title}
-        </h3>
         <h3 style={{ color: COLORS.secondaryBlue }} className="text-2xl font-extrabold mb-4 group-hover:translate-x-1 transition-transform">
           {category.title}
         </h3>
