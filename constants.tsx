@@ -11,7 +11,7 @@ import {
   Lightbulb,
   PlusCircle
 } from 'lucide-react';
-import { CourseCategory, Benefit, Testimonial } from './types';
+import { CourseCategory, Benefit, Testimonial } from './types.ts';
 
 // Precise colors extracted from the provided logo
 export const COLORS = {

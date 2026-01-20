@@ -1,4 +1,6 @@
 
+'use client';
+
 import React from 'react';
 import { 
   MessageCircle, 
@@ -11,10 +13,10 @@ import {
   Quote, 
   Check 
 } from 'lucide-react';
-import { Logo } from './components/Logo';
-import { CourseCategoryCard } from './components/CourseCard';
-import { WhatsAppFloating } from './components/WhatsAppFloating';
-import { COLORS, COURSE_CATEGORIES, BENEFITS, TESTIMONIALS, WHATSAPP_LINK } from './constants';
+import { Logo } from './components/Logo.tsx';
+import { CourseCategoryCard } from './components/CourseCard.tsx';
+import { WhatsAppFloating } from './components/WhatsAppFloating.tsx';
+import { COLORS, COURSE_CATEGORIES, BENEFITS, TESTIMONIALS, WHATSAPP_LINK } from './constants.tsx';
 
 const App: React.FC = () => {
   return (

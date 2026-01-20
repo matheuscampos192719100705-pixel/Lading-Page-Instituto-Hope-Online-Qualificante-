@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { MessageCircle } from 'lucide-react';
-import { WHATSAPP_LINK } from '../constants';
+import { WHATSAPP_LINK } from '../constants.tsx';
 
 export const WhatsAppFloating: React.FC = () => {
   return (

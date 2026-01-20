@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { LOGO_URL } from '../constants';
+import { LOGO_URL } from '../constants.tsx';
 
 interface LogoProps {
   className?: string;
@@ -15,7 +15,6 @@ export const Logo: React.FC<LogoProps> = ({ className = "h-14", light = false })
         alt="Instituto Hope" 
         className={`${className} object-contain transition-all duration-300 ${light ? 'brightness-110' : ''}`}
         style={{ 
-          // Removal of heavy filters to keep the logo's original brand colors intact
           maxHeight: '100%'
         }}
       />
